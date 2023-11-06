@@ -1,0 +1,49 @@
+.rightBar{
+    margin: 0;
+    position: fixed;
+    margin-left: 400px;
+    
+
+    .bgColor{
+        width: 1120px;
+        height: 250px;
+        background-color: lightcyan;
+    }
+
+    .boxAbs{
+        top: 20px;
+        right: 10px;
+       
+
+        .edit{
+            width: 50px;
+            border: white 2px solid;
+            // padding-left: 20px;
+            background-color: #fff;
+        }
+        .avatar{
+            top: 100px;
+            right: 460px;
+            width: 200px;
+            height: 180px;
+            font-size: 150px;
+        }
+        
+    }
+    .name2{
+        margin-top: 100px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+        
+    }
+    .text{
+        margin-top: 40%;
+        margin-left: 50%;
+        width: 800px;
+    }
+}
+
+
+  
+ 

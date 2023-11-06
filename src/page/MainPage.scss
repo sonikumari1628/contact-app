@@ -1,0 +1,26 @@
+.main{
+    display: flex;
+    flex-direction: column;
+
+   
+}
+
+@mixin mobile {
+    @media (max-width: 767px) { 
+      @content; 
+    }
+  }
+  
+  .rightBar {
+    @include mobile {
+      display: none;
+    }
+  }
+ 
+  
+  
+  
+  
+  
+  
+

@@ -1,0 +1,44 @@
+
+.leftBar{
+    // background-color: grey;
+    background-color: lightcyan;
+    width: 400px;
+    min-height: 100vh;
+    border-color: red 2px;
+    
+
+
+    .cont{
+        margin-left: 60px;
+        padding-top: 40px;
+
+        .search{
+            width: 270px;
+            height: 40px;
+            background-color: #e5e5e5;
+            // border-radius: 20px;
+            display: "flex";
+            align-items: center;
+            margin: 0;
+            
+            
+        }
+    }
+
+    .card1{
+        margin-top: 35px;
+        width: 300px;
+        margin-left: 38px;
+        padding: 8px;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .name{
+            margin-left: 15px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+}
